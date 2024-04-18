@@ -1,0 +1,16 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+wrapper{
+    min-height: 400px;
+    background-color: rebeccapurple;
+    margin-bottom: 10px;
+
+}
+nav{
+    background-color: cornflowerblue;
+    height: 60px;
+    width: 100%;
+}
