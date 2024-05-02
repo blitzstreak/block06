@@ -1,3 +1,38 @@
+html {
+  background-color: beige;
+}
 
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px; /* Adjust space between rows */
+  justify-content: left;
+}
+
+.list {
+  display: 2;
+  margin-right: 30px; /* Adjust space between lists */
+  justify-content: left;
+}
+
+.canned, .drygoods, .bread, .snacks {
+  background-color: #cfcdcd;
+  border: 5px solid #ccc;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.808);
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=index.css.map */
